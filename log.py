@@ -13,3 +13,5 @@ class  Log(object):
             res+="  "+str(i)
         return res
 
+
+
