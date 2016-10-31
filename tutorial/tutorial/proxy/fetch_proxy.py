@@ -6,30 +6,36 @@ from lxml import etree
 import json
 import sys
 import time
-from log import Log
+from tutorial.log import Log
+import json
+
 #从kuaidaili获取代理并存储为proxy.json
 
 class GetProxy(object):
-    def __init__(self,url,filename):
-        self.__proxy_url=url
-        self.__filename=filename
+    def __init__(self):
+        self.__proxy_url="http://www.xicidaili.com/nn/"
+        self.__filename="proxy.json"
         self.__page="pageNum.txt"
         self.__max_page=10
-        sys.stdout = open("log.txt", "a")
 
 
-    def __get_html_byte(self,num):
-        response = requests.get(self.__proxy_url+str(num))
+    def __get_html_byte(self,url):
+        response = requests.get(url)
         return response
 
 
-    def __get_html_text(self,num):
-        response = requests.get(self.__proxy_url+str(num))
-        print(Log.log_str("get html text of",num))
+    def __get_html_text(self,url):
+        proxy={"http":"http://127.0.0.1:8080"}
+        response = requests.get(url,proxies=proxy)
+        if(response.status_code!=200):
+            print("fail to get html")
+        print(response.text)
+        print(Log.log_str("get html text of ",url))
         return response.text
 
+
     def __build_selector(self,num):
-        selector = etree.HTML(self.__get_html_text(num))
+        selector = etree.HTML(self.__get_html_text(self.build_url(num)))
         return selector
 
     def __get_page_num(self):
@@ -42,7 +48,29 @@ class GetProxy(object):
             print(Log.log_str("write page num", num))
             f.write(str(num))
 
+    def build_url(self, num):
+        url = self.__proxy_url + str(num)
+        return url
 
+    # 快代理
+    # def get_ips_ports(self,num):
+    #     """
+    #
+    #     :return: list[str]
+    #     """
+    #     selector=self.__build_selector(num)
+    #     ips = selector.xpath('//td[@data-title="IP"]/text()')
+    #     ports = selector.xpath('//td[@data-title="PORT"]/text()')
+    #     res=[]
+    #     if (len(ips) != len(ports)):
+    #         print("ips' length is not equal to posts' length")
+    #     else:
+    #         for i in range(len(ips)):
+    #             a = ips[i] + ":" + ports[i]
+    #             res.append(a)
+    #     return res
+
+    #西祠代理
     def get_ips_ports(self,num):
         """
 
@@ -60,13 +88,13 @@ class GetProxy(object):
             for i in range(len(ips)):
                 a = ips[i] + ":" + ports[i]
                 res.append(a)
-
         if (len(ips_2) != len(ports_2)):
             print("ips' length is not equal to posts' length")
         else:
             for i in range(len(ips_2)):
                 a = ips_2[i] + ":" + ports_2[i]
                 res.append(a)
+        print(res)
         return res
 
     def write(self):
@@ -87,6 +115,14 @@ class GetProxy(object):
             a+=1
             self.__write_page_num(a)
 
+        with open(self.__filename,'r') as f:
+            proxy=f.read()
+            proxy=proxy.split('\n')
+            map={}
+            for i in range(len(proxy)):
+                map[i]=proxy[i]
+        with open(self.__filename,'w') as f:
+            json.dump(map,f)
 
     def refresh(self):
         """
@@ -103,8 +139,5 @@ class GetProxy(object):
 
 
 
-
-
-gp=GetProxy("http://www.kuaidaili.com/proxylist/",'proxy.txt')
+gp=GetProxy()
 gp.refresh()
-

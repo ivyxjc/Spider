@@ -163,3 +163,156 @@
 2016-10-21 13:59:19  get html text of  10
 2016-10-21 13:59:19  write proxy  10
 2016-10-21 13:59:19  write page num  10
+2016-10-31 11:05:24  write page num  1
+2016-10-31 11:05:24  refresh  
+  -------------------------------------------
+2016-10-31 11:05:24  get html text of  2
+2016-10-31 11:05:24  write proxy  2
+2016-10-31 11:05:24  write page num  2
+2016-10-31 11:05:24  get html text of  3
+2016-10-31 11:05:24  write proxy  3
+2016-10-31 11:05:24  write page num  3
+2016-10-31 11:05:24  get html text of  4
+2016-10-31 11:05:24  write proxy  4
+2016-10-31 11:05:24  write page num  4
+2016-10-31 11:05:25  get html text of  5
+2016-10-31 11:05:25  write proxy  5
+2016-10-31 11:05:25  write page num  5
+2016-10-31 11:05:25  get html text of  6
+2016-10-31 11:05:25  write proxy  6
+2016-10-31 11:05:25  write page num  6
+2016-10-31 11:05:25  get html text of  7
+2016-10-31 11:05:25  write proxy  7
+2016-10-31 11:05:25  write page num  7
+2016-10-31 11:05:26  get html text of  8
+2016-10-31 11:05:26  write proxy  8
+2016-10-31 11:05:26  write page num  8
+2016-10-31 11:05:26  get html text of  9
+2016-10-31 11:05:26  write proxy  9
+2016-10-31 11:05:26  write page num  9
+2016-10-31 11:05:26  get html text of  10
+2016-10-31 11:05:27  write proxy  10
+2016-10-31 11:05:27  write page num  10
+2016-10-31 11:05:34  write page num  1
+2016-10-31 11:05:34  refresh  
+  -------------------------------------------
+2016-10-31 11:05:34  get html text of  2
+2016-10-31 11:05:34  write proxy  2
+2016-10-31 11:05:34  write page num  2
+2016-10-31 11:05:34  get html text of  3
+2016-10-31 11:05:34  write proxy  3
+2016-10-31 11:05:34  write page num  3
+2016-10-31 11:05:34  get html text of  4
+2016-10-31 11:05:34  write proxy  4
+2016-10-31 11:05:34  write page num  4
+2016-10-31 11:05:35  get html text of  5
+2016-10-31 11:05:35  write proxy  5
+2016-10-31 11:05:35  write page num  5
+2016-10-31 11:05:35  get html text of  6
+2016-10-31 11:05:35  write proxy  6
+2016-10-31 11:05:35  write page num  6
+2016-10-31 11:05:35  get html text of  7
+2016-10-31 11:05:35  write proxy  7
+2016-10-31 11:05:35  write page num  7
+2016-10-31 11:05:36  get html text of  8
+2016-10-31 11:05:36  write proxy  8
+2016-10-31 11:05:36  write page num  8
+2016-10-31 11:05:36  get html text of  9
+2016-10-31 11:05:36  write proxy  9
+2016-10-31 11:05:36  write page num  9
+2016-10-31 11:05:37  get html text of  10
+2016-10-31 11:05:37  write proxy  10
+2016-10-31 11:05:37  write page num  10
+2016-10-31 11:06:08  write page num  1
+2016-10-31 11:06:08  refresh  
+  -------------------------------------------
+2016-10-31 11:06:08  get html text of  2
+2016-10-31 11:06:08  write proxy  2
+2016-10-31 11:06:08  write page num  2
+2016-10-31 11:06:09  get html text of  3
+2016-10-31 11:06:09  write proxy  3
+2016-10-31 11:06:09  write page num  3
+2016-10-31 11:06:09  get html text of  4
+2016-10-31 11:06:09  write proxy  4
+2016-10-31 11:06:09  write page num  4
+2016-10-31 11:06:10  get html text of  5
+2016-10-31 11:06:10  write proxy  5
+2016-10-31 11:06:10  write page num  5
+2016-10-31 11:06:10  get html text of  6
+2016-10-31 11:06:10  write proxy  6
+2016-10-31 11:06:10  write page num  6
+2016-10-31 11:06:10  get html text of  7
+2016-10-31 11:06:10  write proxy  7
+2016-10-31 11:06:10  write page num  7
+2016-10-31 11:06:11  get html text of  8
+2016-10-31 11:06:11  write proxy  8
+2016-10-31 11:06:11  write page num  8
+2016-10-31 11:06:11  get html text of  9
+2016-10-31 11:06:11  write proxy  9
+2016-10-31 11:06:11  write page num  9
+2016-10-31 11:06:11  get html text of  10
+2016-10-31 11:06:11  write proxy  10
+2016-10-31 11:06:11  write page num  10
+2016-10-31 11:06:25  write page num  1
+2016-10-31 11:06:25  refresh  
+  -------------------------------------------
+2016-10-31 11:06:25  get html text of  2
+2016-10-31 11:06:25  write proxy  2
+2016-10-31 11:06:25  write page num  2
+2016-10-31 11:06:26  get html text of  3
+2016-10-31 11:06:26  write proxy  3
+2016-10-31 11:06:26  write page num  3
+2016-10-31 11:06:26  get html text of  4
+2016-10-31 11:06:26  write proxy  4
+2016-10-31 11:06:26  write page num  4
+2016-10-31 11:06:26  get html text of  5
+2016-10-31 11:06:26  write proxy  5
+2016-10-31 11:06:26  write page num  5
+2016-10-31 11:06:27  get html text of  6
+2016-10-31 11:06:27  write proxy  6
+2016-10-31 11:06:27  write page num  6
+2016-10-31 11:06:27  get html text of  7
+2016-10-31 11:06:27  write proxy  7
+2016-10-31 11:06:27  write page num  7
+2016-10-31 11:06:27  get html text of  8
+2016-10-31 11:06:27  write proxy  8
+2016-10-31 11:06:27  write page num  8
+2016-10-31 11:06:28  get html text of  9
+2016-10-31 11:06:28  write proxy  9
+2016-10-31 11:06:28  write page num  9
+2016-10-31 11:06:28  get html text of  10
+2016-10-31 11:06:28  write proxy  10
+2016-10-31 11:06:28  write page num  10
+2016-10-31 11:11:27  write page num  0
+2016-10-31 11:11:27  refresh  
+  -------------------------------------------
+2016-10-31 11:11:27  get html text of  1
+2016-10-31 11:11:27  write proxy  1
+2016-10-31 11:11:27  write page num  1
+2016-10-31 11:11:27  get html text of  2
+2016-10-31 11:11:27  write proxy  2
+2016-10-31 11:11:27  write page num  2
+2016-10-31 11:11:28  get html text of  3
+2016-10-31 11:11:28  write proxy  3
+2016-10-31 11:11:28  write page num  3
+2016-10-31 11:11:28  get html text of  4
+2016-10-31 11:11:28  write proxy  4
+2016-10-31 11:11:28  write page num  4
+2016-10-31 11:11:28  get html text of  5
+2016-10-31 11:11:28  write proxy  5
+2016-10-31 11:11:28  write page num  5
+2016-10-31 11:11:29  get html text of  6
+2016-10-31 11:11:29  write proxy  6
+2016-10-31 11:11:29  write page num  6
+2016-10-31 11:11:29  get html text of  7
+2016-10-31 11:11:29  write proxy  7
+2016-10-31 11:11:29  write page num  7
+2016-10-31 11:11:29  get html text of  8
+2016-10-31 11:11:29  write proxy  8
+2016-10-31 11:11:29  write page num  8
+2016-10-31 11:11:30  get html text of  9
+2016-10-31 11:11:30  write proxy  9
+2016-10-31 11:11:30  write page num  9
+2016-10-31 11:11:30  get html text of  10
+2016-10-31 11:11:30  write proxy  10
+2016-10-31 11:11:30  write page num  10
