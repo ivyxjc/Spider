@@ -15,6 +15,8 @@ class TutorialItem(scrapy.Item):
 
 
 class DmozItem(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    movie_id = scrapy.Field()
+    movie_url = scrapy.Field()
+    directors = scrapy.Field()
+    title=scrapy.Field()
+    link=scrapy.Field()
