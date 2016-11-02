@@ -49,12 +49,27 @@
 
 
 
-import requests
+# import requests
+#
+# proxies = {
+#     "http": "http://127.0.0.1:8080",
+#     "https": "http://127.0.0.1:8080",
+# }
+#
+# response=requests.get("https://movie.douban.com/chart",proxies=proxies)
+# print(response.status_code)
 
-proxies = {
-    "http": "http://127.0.0.1:8080",
-    "https": "http://127.0.0.1:8080",
-}
+def parse_detail_contents_celebrity( list):
+    """
+    将['/celebrity/1009555/', '/celebrity/1357971/'] conver to [1009555,1357971]
+    :param list:
+    :return: list[str]
+    """
+    res = []
+    for i in list:
+        print(i.split('/'))
+        res.append(i.split('/')[-2])
+    print(res)
+    return res
 
-response=requests.get("https://movie.douban.com/chart",proxies=proxies)
-print(response.status_code)
+parse_detail_contents_celebrity(['/celebrity/1009555/', '/celebrity/1357971/'])

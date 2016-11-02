@@ -14,9 +14,10 @@ class TutorialItem(scrapy.Item):
     pass
 
 
-class DmozItem(scrapy.Item):
+class DoubanItem(scrapy.Item):
     movie_id = scrapy.Field()
     movie_url = scrapy.Field()
     directors = scrapy.Field()
+    casts=scrapy.Field()
     title=scrapy.Field()
-    link=scrapy.Field()
+

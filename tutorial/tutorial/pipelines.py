@@ -8,4 +8,6 @@
 
 class TutorialPipeline(object):
     def process_item(self, item, spider):
+        for i in item:
+            print(i)
         return item
