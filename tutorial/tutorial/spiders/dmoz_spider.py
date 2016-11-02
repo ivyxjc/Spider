@@ -1,7 +1,7 @@
 import scrapy
 from lxml import etree
 from tutorial.items import DmozItem
-class DmozSpider(scrapy.Spider):
+class DmozSpider(scrapy.S"pider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
     start_urls = [
