@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spider.iml" filepath="$PROJECT_DIR$/.idea/Spider.iml" />
-      <module fileurl="file://E:/Coding/sp/Spider/Spider/.idea/Spider.iml" filepath="E:/Coding/sp/Spider/Spider/.idea/Spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sp/Spider/Spider/.idea/Spider.iml" filepath="$PROJECT_DIR$/../../sp/Spider/Spider/.idea/Spider.iml" />
     </modules>
   </component>
 </project>

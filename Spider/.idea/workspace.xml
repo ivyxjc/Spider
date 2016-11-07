@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06a3813-b59f-4c3c-839d-14360d6a52bd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/tutorial.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/scrapy.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/log.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/__init__.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/detect_proxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/fetch_proxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/getProxy_local.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/pageNum.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/proxy.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/scrapy.cfg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/dmoz_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/proxy.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/ss/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/pageNum.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/getProxy_local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/tutorial.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/proxy/fetch_proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tutorial/tutorial/log.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
     </list>
     <ignored path="GetProxy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +36,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Weibo$log_in__1_.coverage" NAME="log_in (1) Coverage Results" MODIFIED="1477205230072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Coding/sp/Spider/Weibo/weibo" />
+    <SUITE FILE_PATH="coverage/Spider$get_sitemap_xml.coverage" NAME="get_sitemap_xml Coverage Results" MODIFIED="1478411210555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/douban" />
+    <SUITE FILE_PATH="coverage/Weibo$log_in__1_.coverage" NAME="log_in (1) Coverage Results" MODIFIED="1477205230072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../sp/Spider/Weibo/weibo" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -48,11 +50,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getProxy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getProxy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proxy/getProxy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="1562">
               <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getProxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy/getProxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -60,92 +72,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doubanAPI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubanAPI_Test/doubanAPI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubanAPI_Test/weather.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhihuAnalysis/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhihu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhihu_db.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="zhihu_db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
+                <marker date="1478087379904" expanded="true" signature="6575:6655" ph="SELECT * FRO... missing_value" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogAndError.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhihuAnalysis/LogAndError.py">
+      <file leaf-file-name="get_sitemap_xml.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/get_sitemap_xml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2574">
+              <caret line="124" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap_config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/text/sitemap_config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2789" selection-start-line="0" selection-start-column="2789" selection-end-line="0" selection-end-column="2789" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/text/sitemap.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxy.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxy/proxy.txt">
+      <file leaf-file-name="bb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/bb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="814">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log.py">
+      <file leaf-file-name="getip.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/getip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/douban/mm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +173,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,6 +188,8 @@
         <option value="$PROJECT_DIR$/proxy/proxy.txt" />
         <option value="$PROJECT_DIR$/proxy/ss.py" />
         <option value="$PROJECT_DIR$/proxy/getProxy" />
+        <option value="$PROJECT_DIR$/zhihuAnalysis/zhihu_db.py" />
+        <option value="$PROJECT_DIR$/douban/get_sitemap_xml.py" />
       </list>
     </option>
   </component>
@@ -215,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,14 +238,6 @@
               <option name="myItemId" value="Spider" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.5.2 (C:\Python35\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -251,41 +259,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
+              <option name="myItemId" value="zhihuAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="douban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="douban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Spider">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Spider">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="proxy">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +310,7 @@
       <recent name="D:\xjc\Spider\Weibo\proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getProxy (1)">
+  <component name="RunManager" selected="Python.get_sitemap_xml">
     <configuration default="false" name="getProxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,24 +325,6 @@
       <module name="GetProxy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GetProxy/getProxy" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="log" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GetProxy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GetProxy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GetProxy/log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -360,13 +354,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/Coding/sp/Spider/Weibo/weibo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../sp/Spider/Weibo/weibo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Weibo" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/Coding/sp/Spider/Weibo/weibo/log_in.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../sp/Spider/Weibo/weibo/log_in.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -387,6 +381,75 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy/getProxy" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_sitemap_xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/douban" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/douban/get_sitemap_xml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -418,6 +481,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="GetProxy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -532,23 +611,26 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.getProxy" />
-      <item index="1" class="java.lang.String" itemvalue="Python.log" />
-      <item index="2" class="java.lang.String" itemvalue="Python.log_in" />
-      <item index="3" class="java.lang.String" itemvalue="Python.log_in (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.getProxy (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.log_in" />
+      <item index="2" class="java.lang.String" itemvalue="Python.log_in (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.getProxy (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.get_sitemap_xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getProxy (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.log_in (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.log_in" />
-        <item index="3" class="java.lang.String" itemvalue="Python.getProxy" />
-        <item index="4" class="java.lang.String" itemvalue="Python.log" />
+        <item index="0" class="java.lang.String" itemvalue="Python.get_sitemap_xml" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getProxy (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.log_in (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.log_in" />
+        <item index="4" class="java.lang.String" itemvalue="Python.getProxy" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -564,22 +646,22 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19494204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -600,84 +682,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhihuAnalysis/LogAndError.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/proxy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/proxy/getProxy" />
-    <entry file="file://$PROJECT_DIR$/weibo/proxy/getProxy" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1313743207/builtins.py" />
     <entry file="file://$PROJECT_DIR$/weibo/proxy/proxy.txt" />
     <entry file="file://$PROJECT_DIR$/weibo/proxy/pageNum.txt" />
     <entry file="file://$PROJECT_DIR$/weibo/log.py" />
     <entry file="file://$PROJECT_DIR$/weibo/proxy/log.txt" />
     <entry file="file://$PROJECT_DIR$/weibo/proxy/getProxy" />
     <entry file="file://$PROJECT_DIR$/weibo/weibo/log_in.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/basic/request_1.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/basic/spider_1.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/API/__init__.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/basic/spider_3.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/doubanAPI_Test/weather.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/doubanAPI_Test/weibo.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/doubanAPI_Test/doubanAPI.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/googleSearch/get_pics_from_google_search.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/jiandan/tem.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/jiandan/temp.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/maoYanBoxOffice/date.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/maoYanBoxOffice/maoyan_db.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/maoYanBoxOffice/tttt.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/neteaseMusic/__init__.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/zhihuAbout/pics/pic3.jpg" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/zhihuAbout/pics/pic4.jpg" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/log.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/fileToFile.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/zhihuAbout/get_pic_from_zhihu.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/zhihuAnalysis/logging.txt" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/zhihuAnalysis/LogAndError.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/weibo/log_in.py" />
-    <entry file="file://E:/Coding/sp/Spider/Spider/logging.txt" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/basic/request_1.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/basic/spider_1.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/API/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/basic/spider_3.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/doubanAPI_Test/weather.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/doubanAPI_Test/weibo.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/doubanAPI_Test/doubanAPI.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/googleSearch/get_pics_from_google_search.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/jiandan/tem.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/jiandan/temp.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/maoYanBoxOffice/date.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/maoYanBoxOffice/maoyan_db.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/maoYanBoxOffice/tttt.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/neteaseMusic/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/zhihuAbout/pics/pic3.jpg" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/zhihuAbout/pics/pic4.jpg" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/log.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/fileToFile.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/zhihuAbout/get_pic_from_zhihu.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/zhihuAnalysis/logging.txt" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/zhihuAnalysis/LogAndError.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/weibo/log_in.py" />
+    <entry file="file://$PROJECT_DIR$/../../sp/Spider/Spider/logging.txt" />
     <entry file="file://$PROJECT_DIR$/dou.py" />
     <entry file="file://$PROJECT_DIR$/zhihuAbout/get_pic_from_zhihu.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -702,9 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proxy/proxy.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
+        <state relative-caret-position="1540">
           <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,17 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubanAPI_Test/doubanAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,27 +758,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,12 +782,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doubanAPI_Test/doubanAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/getProxy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="1562">
           <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/getProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/text/sitemap_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2789" selection-start-line="0" selection-start-column="2789" selection-end-line="0" selection-end-column="2789" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/text/sitemap.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/mm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/getip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/get_sitemap_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="124" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban/bb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihuAnalysis/zhihu_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+            <marker date="1478087379904" expanded="true" signature="6575:6655" ph="SELECT * FRO... missing_value" />
           </folding>
         </state>
       </provider>
