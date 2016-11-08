@@ -1,6 +1,5 @@
 import scrapy
 
-
 from scrapy.selector import Selector
 from douban.items import DoubanItem
 import logging

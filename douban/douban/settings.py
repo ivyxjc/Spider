@@ -64,12 +64,12 @@ DOWNLOAD_DELAY = 3
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'douban.pipelines.DoubanMovieDetailPipeline': 100,
-   'douban.pipelines.DoubanCelebrityPipeline':200,
-   'douban.pipelines.DoubanListPipeline':400,
-   'douban.pipelines.DoubanMovieMapPipeline':500
-}
+# ITEM_PIPELINES = {
+#    'douban.pipelines.DoubanMovieDetailPipeline': 100,
+#    'douban.pipelines.DoubanCelebrityPipeline':200,
+#    'douban.pipelines.DoubanListPipeline':400,
+#    'douban.pipelines.DoubanMovieMapPipeline':500
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
