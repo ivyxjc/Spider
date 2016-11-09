@@ -1,7 +1,7 @@
 
 import json
 import copy
-# import pymysql
+import pymysql
 import logging
 
 
@@ -12,19 +12,33 @@ class db_about(object):
     #
     # Don't forget to add your pipeline to the ITEM_PIPELINES setting
     # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
-    def __init__(self):
-        self.connection = pymysql.connect(user='root',
+    # def __init__(self):
+    #     self.connection = pymysql.connect(user='root',
+    #                                       passwd='123456',
+    #                                       host='localhost',
+    #                                       port=3306,
+    #                                       db='douban',
+    #                                       cursorclass=pymysql.cursors.DictCursor,
+    #                                       )
+    #     self.connection.set_charset('utf8')
+    #     self.connection.cursor().execute('SET NAMES utf8;')
+    #     self.connection.cursor().execute('SET CHARACTER SET utf8;')
+    #     self.connection.cursor().execute('SET character_set_connection=utf8;')
+
+
+    connection = pymysql.connect(user='root',
                                           passwd='123456',
                                           host='localhost',
                                           port=3306,
                                           db='douban',
                                           cursorclass=pymysql.cursors.DictCursor,
                                           )
-        self.connection.set_charset('utf8')
-        self.connection.cursor().execute('SET NAMES utf8;')
-        self.connection.cursor().execute('SET CHARACTER SET utf8;')
-        self.connection.cursor().execute('SET character_set_connection=utf8;')
+    connection.set_charset('utf8')
+    connection.cursor().execute('SET NAMES utf8;')
+    connection.cursor().execute('SET CHARACTER SET utf8;')
+    connection.cursor().execute('SET character_set_connection=utf8;')
 
+    @classmethod
     def format(self, s, map):
         """
         map={1:aa,
@@ -59,7 +73,7 @@ class db_about(object):
 
 
     ## db操作
-
+    @classmethod
     def commit_to_db_buffer(self, sql1):
         try:
             with self.connection.cursor() as cursor:
@@ -69,9 +83,11 @@ class db_about(object):
         finally:
             pass
 
+    @classmethod
     def commit(self):
         self.connection.commit()
 
+    @classmethod
     def fetch_data(self,sql):
         try:
             with self.connection.cursor() as cursor:
@@ -81,3 +97,4 @@ class db_about(object):
             logging.log(level=logging.WARN, msg="fail to fetch data "+sql)
         finally:
             pass
+

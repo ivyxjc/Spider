@@ -5,6 +5,9 @@ from douban.items import DoubanItem
 import logging
 import re
 from douban.db_util import db_about
+import time
+
+
 class DmozSpider(scrapy.Spider):
     name = "douban"
     allowed_domains = ["douban.com"]
@@ -13,6 +16,7 @@ class DmozSpider(scrapy.Spider):
        'https://movie.douban.com/subject/7054604/',
     ]
 
+    t1=time.time()
 
     # def parse(self, response):
     #     i=0
@@ -23,10 +27,26 @@ class DmozSpider(scrapy.Spider):
     #             yield scrapy.Request(url, callback=self.parse_detail_contents)
 
     def parse(self, response):
-        urls=['https://movie.douban.com/subject/7054604/']
-        for i in urls:
-            yield scrapy.Request(i,callback=self.parse_detail_contents)
 
+        count=0
+        for i in range(0,10):
+            db_url = db_about.fetch_data('SELECT movie_id FROM douban.movie_name where flag=0 LIMIT 5000;')
+            urls = []
+            for i in db_url:
+                urls.append('https://movie.douban.com/subject/' + str(i['movie_id']) + '/')
+
+            for i in range(len(urls)):
+                yield scrapy.Request(urls[i],callback=self.parse_detail_contents)
+
+            count+=1
+
+        print("{} ------------------------------".format(count))
+        print(time.time() - self.t1)
+
+
+        # urls=['https://movie.douban.com/subject/1291583/']
+        # for i in urls:
+        #     yield scrapy.Request(i,callback=self.parse_detail_contents)
 
 
 
@@ -83,6 +103,7 @@ class DmozSpider(scrapy.Spider):
                     item['writers'] = self.parse_list_exception('directors', info_sel,
                                                             "//div[@id='info']/span[2]/span[@class='attrs']/a")
             except:
+                item['writers']={}
                 logging.log(level=logging.INFO, msg='---Not find 编剧')
 
 
@@ -117,11 +138,17 @@ class DmozSpider(scrapy.Spider):
             release_date_map={}
             if(release_date!=None):
                 for i in release_date:
-                    district=re.findall('\((.*)\)',i)[0]
+                    district=re.findall('\((.*)\)',i)
+                    if(district==[]):
+                        district='Undefined'
+                    else:
+                        district=district[0]
                     date=re.findall('(\d{4}-\d{2}-\d{2})',i)[0]
                     release_date_map[district]=date
             item['release_date']=release_date_map
         except:
+            release_date_map = {}
+            item['release_date'] = release_date_map
             logging.log(level=logging.INFO, msg="--Not find release date")
 
 
@@ -154,7 +181,7 @@ class DmozSpider(scrapy.Spider):
         # except:
         #     logging.log(level=logging.INFO, msg="--Not find movie aka")
 
-        movie_language = self.parse_re_exception("movie_country", info_sel, '<span class="pl">制片国家/地区:</span>(.*)<br>')
+        movie_language = self.parse_re_exception("movie_country", info_sel, '<span class="pl">语言:</span>(.*)<br>')
         item['movie_language'] = movie_language
 
         # try:
@@ -173,6 +200,7 @@ class DmozSpider(scrapy.Spider):
             imdb= info_sel.re('http://www.imdb.com/title/(.+?)\"')[0]
             item['movie_imdb_id']=imdb
         except:
+            item['movie_imdb_id']=None
             logging.log(level=logging.INFO,msg='---Not find imdb id')
 
 
@@ -212,7 +240,7 @@ class DmozSpider(scrapy.Spider):
                 rating_better[tmp[0][1]]=tmp[0][0]
                 item['rating_better_than']=rating_better
         except:
-            logging.log(level=logging.INFO, msg="--Not find movie aka")
+            logging.log(level=logging.INFO, msg="--Not find better than")
 
         #获取电影标签
         # tags=full_sel.xpath('//div[@class="tags-body"]/a/text()').extract()
@@ -235,7 +263,7 @@ class DmozSpider(scrapy.Spider):
     def parse_re_exception(self,info_title:str,selector:Selector,re:str):
         try:
             movie_aka = selector.re(re)[0]
-            movie_aka = movie_aka.split('/')
+            movie_aka = movie_aka.split(' /')
             movie_aka_list = []
             for i in movie_aka:
                 if (i != " " and i != "" and i != None and i != '/'):

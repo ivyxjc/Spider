@@ -241,3 +241,73 @@ from douban.db_util import db_about
 #
 # item=replace_colon(item)
 # print(item)
+
+
+# encoding=utf-8
+# author: walker
+# date: 2014-05-15
+# function: 更改图片尺寸大小
+# import os
+# import os.path
+# from PIL import Image
+#
+# '''
+# filein:  输入图片
+# fileout: 输出图片
+# width: 输出图片宽度
+# height:输出图片高度
+# type:输出图片类型（png, gif, jpeg...）
+# '''
+#
+#
+# def ResizeImage(filein, fileout, width, height, type):
+#     img = Image.open(filein)
+#     out = img.resize((width, height), Image.ANTIALIAS)  # resize image with high-quality
+#     out.save(fileout, type)
+#
+#
+# if __name__ == "__main__":
+#     filein = r'C:\Users\jc\Pictures\aa.png'
+#     fileout = r'C:\Users\jc\Pictures\testout.png'
+#     width = 295
+#     height = 328
+#     type = 'png'
+#     ResizeImage(filein, fileout, width, height, type)
+
+
+# from douban.db_util import db_about
+#
+# db_url=db_about.fetch_data('SELECT movie_id FROM douban.movie_name where flag=0 LIMIT 5;')
+# urls=[]
+# for i in db_url:
+#     urls.append('https://movie.douban.com/subject/'+str(i['movie_id'])+'/')
+
+# import re
+# import time
+# t1=time.time()
+# # time.sleep(3)
+# a="1924.30.0"
+# if(re.findall('\((.*)\)',a)==[]):
+#     print("ss")
+#
+# print(re.findall('\((.*)\)',a))
+# print(time.time()-t1)
+# print("{} ---- {}".format('ount', 's'))
+
+# map={}
+# print('a' in map.keys())
+# list=[]
+# for i in range(len(list)):
+#     print(i)
+#     print(list[i])
+
+def foo():
+    count=0
+    while (count<10):
+        for i in range(10):
+            yield i*count
+        count+=1
+
+
+for i in foo():
+    print(i)
