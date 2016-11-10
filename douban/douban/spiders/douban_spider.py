@@ -30,7 +30,7 @@ class DmozSpider(scrapy.Spider):
 
         count=0
         for i in range(0,10):
-            db_url = db_about.fetch_data('SELECT movie_id FROM douban.movie_name where flag=0 LIMIT 5000;')
+            db_url = db_about.fetch_data('SELECT movie_id FROM douban.movie_name where flag=0 LIMIT 15000;')
             urls = []
             for i in db_url:
                 urls.append('https://movie.douban.com/subject/' + str(i['movie_id']) + '/')
