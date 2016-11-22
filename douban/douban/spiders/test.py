@@ -301,13 +301,14 @@ from douban.db_util import db_about
 #     print(i)
 #     print(list[i])
 
-def foo():
-    count=0
-    while (count<10):
-        for i in range(10):
-            yield i*count
-        count+=1
+# def foo():
+#     count=0
+#     while (count<10):
+#         for i in range(10):
+#             yield i*count
+#         count+=1
 
+import random
 
-for i in foo():
-    print(i)
+a=random.randint(0,4)
+print(a)

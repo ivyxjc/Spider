@@ -30,7 +30,7 @@ class DmozSpider(scrapy.Spider):
 
         count=0
         for i in range(0,10):
-            db_url = db_about.fetch_data('SELECT movie_id FROM douban.movie_name where flag=0 LIMIT 15000;')
+            db_url = db_about.fetch_data('SELECT movie_id FROM douban.movie_name where flag=0 LIMIT 55000;')
             urls = []
             for i in db_url:
                 urls.append('https://movie.douban.com/subject/' + str(i['movie_id']) + '/')
@@ -42,6 +42,7 @@ class DmozSpider(scrapy.Spider):
 
         print("{} ------------------------------".format(count))
         print(time.time() - self.t1)
+        print(response)
 
 
         # urls=['https://movie.douban.com/subject/1291583/']
@@ -50,7 +51,8 @@ class DmozSpider(scrapy.Spider):
 
 
 
-    def parse_detail_contents(self,response):
+    def parse_detail_contents(self,response:scrapy.http.Response):
+        print(response.meta)
         #由整个网页构成的selector
         full_sel=Selector(response=response)
         info_sel = Selector(text=full_sel.xpath("//div[@id='info']").extract()[0])
@@ -62,7 +64,6 @@ class DmozSpider(scrapy.Spider):
 
         #str
         item['movie_name'] = self.parse_single_line_excetpion("movie_name",full_sel,"//div[@id='content']/h1/span/text()",False,logging.WARN)
-
 
         item['movie_id']=response.url.split('/')[-2]
         # print(response.body)
