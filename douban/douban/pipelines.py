@@ -67,9 +67,6 @@ class DoubanMovieDetailPipeline(object):
             return map
 
 
-
-
-
 class DoubanCelebrityPipeline(object):
     """
     处理'casts':,'directors','writers
